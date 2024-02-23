@@ -6,5 +6,9 @@ in maniera specifica.*/
 public class Main {
 
     public static void main(String[] args) {
+        Rettangolo rettangolo = new Rettangolo(8, 5);
+        Triangolo triangolo = new Triangolo(10, 5);
+        rettangolo.calcolaArea();
+        triangolo.calcolaArea();
     }
 }
